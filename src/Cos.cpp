@@ -4,6 +4,6 @@
 using namespace std;
 
 void Cos(){
-    cout<<"Jesli to widzisz to dziala funkcja Cos"<<endl;
+    cout<<"Jesli to widzisz to dobrze dziala funkcja Cos"<<endl;
 }
 
