@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Instalki\PAMSI_1\PAMSI_1\Build\CMakeFiles\e6fb8d2c3391d93da97a61672859b280\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3485B0CD-3CA1-3A90-B021-72C2279C2D62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

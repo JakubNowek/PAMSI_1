@@ -1,0 +1,10 @@
+^D:\INSTALKI\PAMSI_1\PAMSI_1\BUILD\CMAKEFILES\E6FB8D2C3391D93DA97A61672859B280\GENERATE.STAMP.RULE
+setlocal
+D:\Instalki\Cmake\bin\cmake.exe -SD:/Instalki/PAMSI_1/PAMSI_1 -BD:/Instalki/PAMSI_1/PAMSI_1/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Instalki/PAMSI_1/PAMSI_1/Build/Sort.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

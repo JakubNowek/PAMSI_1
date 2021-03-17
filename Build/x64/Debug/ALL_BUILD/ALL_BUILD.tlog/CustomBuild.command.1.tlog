@@ -1,0 +1,10 @@
+^D:\INSTALKI\PAMSI_1\PAMSI_1\CMAKELISTS.TXT
+setlocal
+D:\Instalki\Cmake\bin\cmake.exe -SD:/Instalki/PAMSI_1/PAMSI_1 -BD:/Instalki/PAMSI_1/PAMSI_1/Build --check-stamp-file D:/Instalki/PAMSI_1/PAMSI_1/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

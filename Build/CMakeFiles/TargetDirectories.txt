@@ -1,0 +1,3 @@
+D:/Instalki/PAMSI_1/PAMSI_1/Build/CMakeFiles/Sort.dir
+D:/Instalki/PAMSI_1/PAMSI_1/Build/CMakeFiles/ALL_BUILD.dir
+D:/Instalki/PAMSI_1/PAMSI_1/Build/CMakeFiles/ZERO_CHECK.dir
